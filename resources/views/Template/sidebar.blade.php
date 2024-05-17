@@ -1,7 +1,7 @@
 <div class="leftmain bg-white">
     <div>
         <div class="logo">
-            <a href="dashboard.html">
+            <a href="{{route('admin.dashboard')}}">
                 <img src="{{asset('img/logo.svg')}}" alt="logo" class="w-100">
             </a>
         </div>

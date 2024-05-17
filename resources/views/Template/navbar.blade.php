@@ -33,7 +33,7 @@
                             <i class="fa-solid fa-chevron-up small activeic"></i>
                         </a>
                         <div class="position-absolute cus-dropdown bg-white rounded-2 px-3 py-2">
-                            <a href="{{route('NgoFlowOptimization')}}"
+                            <a href="{{route('liquidityProvider')}}"
                                 class="d-flex align-items-center text-decoration-none small py-2 text-black">
                                 <img src="{{asset('img/icon1.svg')}}" alt="liquidity" class="me-2">
                                 <span>Liquidity provider</span>
