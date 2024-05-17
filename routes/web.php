@@ -2,6 +2,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\WebController;
 use App\Http\Controllers\AdminController;
+use Illuminate\Support\Facades\Auth;
 
 Route::controller(WebController::class)->group(function(){
     Route::get('/','index')->name('/');
@@ -28,3 +29,7 @@ Route::prefix('admin')->group(function(){
     });
 });
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
