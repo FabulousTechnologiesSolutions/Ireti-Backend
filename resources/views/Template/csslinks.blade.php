@@ -9,3 +9,5 @@
 <link rel="stylesheet" href="{{asset('css/main.css')}}">
 <link rel="stylesheet" href="{{asset('css/main1.css')}}">
 <link rel="stylesheet" href="{{asset('css/main2.css')}}">
+<link rel="icon" type="image/x-icon" href="{{asset('img/favicon.svg')}}">
+
